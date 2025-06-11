@@ -35,15 +35,6 @@ README.md              → Este documento
 
 ---
 
-## Instalación
-
-### Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
-````
-
 ### Instalar dependencias
 
 ```bash
