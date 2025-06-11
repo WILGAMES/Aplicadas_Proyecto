@@ -3,6 +3,8 @@
 import networkx as nx
 from networkx.algorithms import approximation as approx
 
+
+
 def solve_tsp_nearest_neighbor(graph, start_node=None):
     """Resuelve el TSP usando la heurística del vecino más cercano."""
     if start_node is None:

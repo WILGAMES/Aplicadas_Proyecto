@@ -2,6 +2,30 @@
 
 import matplotlib.pyplot as plt
 import networkx as nx
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+
+def plot_cost_surface_3d():
+    """Grafica 3D simulada de una función objetivo de optimización."""
+    fig = plt.figure(figsize=(10, 6))
+    ax = fig.add_subplot(111, projection='3d')
+
+    # Simular dos variables de decisión (por ejemplo, distancia y energía)
+    X = np.linspace(0, 100, 100)
+    Y = np.linspace(0, 100, 100)
+    X, Y = np.meshgrid(X, Y)
+
+    # Función de costo: se puede ajustar al modelo real
+    Z = np.sqrt(X**2 + Y**2) + 10 * np.sin(X / 10) + 5 * np.cos(Y / 10)
+
+    ax.plot_surface(X, Y, Z, cmap='viridis', edgecolor='none')
+    ax.set_title("Superficie de Costo")
+    ax.set_xlabel("Distancia acumulada")
+    ax.set_ylabel("Consumo energético")
+    ax.set_zlabel("Costo total")
+
+    plt.show()
 
 def plot_graph(graph, title="Grafo"):
     """Dibuja el grafo completo con pesos."""

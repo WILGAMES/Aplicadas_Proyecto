@@ -3,6 +3,8 @@
 from src.graph_utils import load_graph_from_json
 from src.optimization import solve_tsp_nearest_neighbor, solve_tsp_approximation
 from src.visualization import plot_graph, plot_graph_with_path
+from src.visualization import plot_cost_surface_3d
+
 
 def main():
     # Cargar grafo
@@ -25,6 +27,9 @@ def main():
     print(f"Ruta (Aproximación): {path_ap}")
     print(f"Costo total: {cost_ap}\n")
     plot_graph_with_path(graph, path_ap, title=f"Ruta TSP - Aproximación (Costo: {cost_ap})")
+
+    # Mostrar gráfica 3D
+    plot_cost_surface_3d()
 
 if __name__ == "__main__":
     main()
