@@ -1,6 +1,3 @@
-¡Claro! Aquí tienes el README ordenado, con secciones bien estructuradas y detalles destacados para que se vea **profesional y atractivo**. Puedes copiar y pegar directamente a tu archivo `README.md` en GitHub o cualquier plataforma compatible con Markdown.
-
----
 
 # Optimización de Recorrido de Drones para Monitoreo Agrícola
 
