@@ -1,8 +1,10 @@
-Optimización de Recorrido de Drones para Monitoreo Agrícola
- Descripción del Proyecto
+## Optimización de Recorrido de Drones para Monitoreo Agrícola
+ 
+## Descripción del Proyecto
+
 Este proyecto implementa un sistema de optimización matemática para determinar el recorrido más eficiente de un dron al monitorear tres zonas agrícolas distintas. Usando programación lineal con restricciones, se minimiza el consumo energético total, considerando las particularidades de cada terreno.
 
- Problema a Resolver
+Problema a Resolver
 Un dron debe monitorear tres zonas agrícolas con diferentes características de terreno:
 
 Zona A: Terreno plano (consumo: 1.2 unidades/km)
